@@ -13,7 +13,7 @@ Any additions, corrections and/or suggested improvements are encouraged and appr
 ------
 
 Number | Distibution | Type | BUGS |SAS
-------------- | ------------- | ------------- | -------------
+------------- | ------------- | ------------- | ------------- | -------------
 1.1  |Bernoulli              | Discrete    | `dbern(p)`          |`f1`
 1.2  |Binomial               | Discrete    | `dbin(p,n)`         |`bin(n,p)`
 1.3  |Negative binomial      | Discrete    | `dnegbin(p,r)`      |`negbin(n,p)`
