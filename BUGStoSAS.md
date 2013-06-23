@@ -7,7 +7,7 @@ This serves as an attempt to document similar syntax used in BUGS and SAS. Gener
 
 Much of the BUGS code relies on the [R2WinBUGS](http://cran.r-project.org/web/packages/R2WinBUGS/index.html) and/or [BRugs](http://cran.r-project.org/web/packages/BRugs/index.html) packages in R.
 
-Any additions, corrections and/or suggested improvements are encouraged and appreciated. Send an [email](mailto:russellm@umn.edu). 
+Any additions, corrections, and/or suggested improvements are encouraged and appreciated. Send an [email](mailto:russellm@umn.edu). 
 
 1. Common statistical distributions
 -------------------------
@@ -43,7 +43,7 @@ Number | Description | R2WinBUGS |SAS
 2.4 |Specify thinning parameter        |`n.thin = `          |`thin = ` or `nthin = `
 2.5 |Specify the maximum number of tuning loops       |?    |`maxtune =`
 2.6 |Specify the maximum number of tuning loops       |?    |`mintune =`
-2.6 |Specify the number of tuning iterations       |?    |`ntu =`
+2.7 |Specify the number of tuning iterations       |?    |`ntu =`
 ------
 
 
@@ -56,7 +56,6 @@ Number | Description | BRugs |SAS
 ------------- | ------------- | ------------- | -------------
 3.1 |Trace plots       |`samplesHistory ('*')`         |`plots = trace`
 3.2 |Posterior density plots   |`samplesDensity ('*')`   |`plots = density`
-3.3 |Specify 100,000 MCMC iterations        |`n.iter = 100,000`    |`nmc = 100,000`
 ------
 
 4. Working with the posterior samples.
@@ -65,6 +64,6 @@ Number | Description | BRugs |SAS
 
 Number | Description | BUGS |SAS
 ------------- | ------------- | ------------- | -------------
-4.1 |Output a data set named `posts` containing posterior samples of parameters      | Check coda         |`outpost =`
+4.1 |Data set named containing posterior samples of parameters      | Check coda         |`outpost =`
 
 ------
