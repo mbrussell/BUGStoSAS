@@ -21,7 +21,7 @@ Number | Description | BUGS |SAS
 3.1 |Generate 0.1 as a starting value       |`inits = 0.1`         |`initial = 0.1`
 3.2 |Specify 10,000 iterations as burn-in   |`n.burnin = 10,000`   |`nbi = 10,000`
 3.3 |Specify 100,000 MCMC iterations        |`n.iter = 100,000'`   |`nmc = 100,000 `
-3.4 |Specify thinning parameter as 3        |`n.thin = 3`          |`thinning = 3` OR 'thin = 3`
+3.4 |Specify thinning parameter as 3        |`n.thin = 3`          |`thinning = 3` OR `thin = 3`
 ------
 
 
